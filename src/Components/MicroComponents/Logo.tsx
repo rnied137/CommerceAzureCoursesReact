@@ -12,14 +12,14 @@ const LogoArea = styled.div`
 &>h2 {
     color: #fff;
     font-size: 4rem;
-    z-index:2;
+    z-index: 2;
 }
 
 &> svg {
     position:absolute;
     left: 20px;
-    top:25px;
-    z-index:1;
+    top: 25px;
+    z-index: 1;
 }
 
 `;
