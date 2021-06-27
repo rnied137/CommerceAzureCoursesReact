@@ -11,7 +11,7 @@ const LogoArea = styled.div`
 
 &>h2 {
     color: #fff;
-    font-size: 4rem;
+    font-size: 3.5rem;
     z-index: 2;
 }
 
