@@ -22,8 +22,8 @@ export const Sidebar = () => {
             <MenuDivider>
                 <div>
                     <MenuItem />
-                    <MenuItem />
-                    <MenuItem />
+                    <MenuItem active={true} />
+                    <MenuItem active={false} />
                     <MenuItem />
                 </div>
                 <div>
