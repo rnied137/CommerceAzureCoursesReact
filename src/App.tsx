@@ -2,6 +2,7 @@ import { Sidebar } from './Components/Sidebar';
 import { ComponentPlaceholder } from './ComponentPlaceholder';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useState } from 'react';
+import { TopBar } from './Components/TopBar/TopBar';
 
 function App() {
 
@@ -18,12 +19,13 @@ function App() {
 
 
   return (
-    <div>
+    <div style={{ display: "flex" }}>
       <Router>
-        <div style={{ display: "flex" }}>
+        <Sidebar isActiveArray={isActiveArray} setActive={setActive} />
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <TopBar>
+          </TopBar>
 
-
-          <Sidebar isActiveArray={isActiveArray} setActive={setActive} />
 
           <Switch>
             <Route exact path="/dupa" render={(props) => <ComponentPlaceholder {...props} placeholder='tu jest ala' />} />

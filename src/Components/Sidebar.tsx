@@ -5,6 +5,8 @@ import { Folder } from './../SVG/Folder';
 import { Options } from '../SVG/Options';
 import { Messages } from './../SVG/Messages';
 import { Graph } from './../SVG/Graph';
+import { Link } from 'react-router-dom';
+
 
 
 export type Props = {
@@ -28,7 +30,8 @@ justify-content: space-between;
 export const Sidebar = ({ isActiveArray, setActive }: Props) => {
     return (
         <Bar>
-            <Logo />
+
+            <Link to="/"><Logo /></Link>
             <MenuDivider>
                 <div>
                     <MenuItem href="/ala" active={isActiveArray[0]} index={0} setActive={() => setActive(0, isActiveArray[0])}>
@@ -42,7 +45,7 @@ export const Sidebar = ({ isActiveArray, setActive }: Props) => {
                     </MenuItem>
                 </div>
                 <div>
-                    <MenuItem href="/dupa2" index={3} active={isActiveArray[3]} setActive={() => setActive(3, isActiveArray[3])} >
+                    <MenuItem border={true} href="/dupa2" index={3} active={isActiveArray[3]} setActive={() => setActive(3, isActiveArray[3])} >
                         <Options active={isActiveArray[3]} />
                     </MenuItem>
                 </div>
