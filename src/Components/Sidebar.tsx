@@ -34,18 +34,18 @@ export const Sidebar = ({ isActiveArray, setActive }: Props) => {
             <Link to="/"><Logo /></Link>
             <MenuDivider>
                 <div>
-                    <MenuItem href="/ala" active={isActiveArray[0]} index={0} setActive={() => setActive(0, isActiveArray[0])}>
+                    <MenuItem href="/widgets" active={isActiveArray[0]} index={0} setActive={() => setActive(0, isActiveArray[0])}>
                         <Folder active={isActiveArray[0]} />
                     </MenuItem>
-                    <MenuItem href="/kot" active={isActiveArray[1]} index={1} setActive={() => setActive(1, isActiveArray[1])}>
+                    <MenuItem href="/dashboard" active={isActiveArray[1]} index={1} setActive={() => setActive(1, isActiveArray[1])}>
                         <Graph active={isActiveArray[1]} />
                     </MenuItem>
-                    <MenuItem href="/dupa" active={isActiveArray[2]} index={2} setActive={() => setActive(2, isActiveArray[2])}>
+                    <MenuItem href="/communication" active={isActiveArray[2]} index={2} setActive={() => setActive(2, isActiveArray[2])}>
                         <Messages active={isActiveArray[2]} />
                     </MenuItem>
                 </div>
                 <div>
-                    <MenuItem border={true} href="/dupa2" index={3} active={isActiveArray[3]} setActive={() => setActive(3, isActiveArray[3])} >
+                    <MenuItem border={true} href="/settings" index={3} active={isActiveArray[3]} setActive={() => setActive(3, isActiveArray[3])} >
                         <Options active={isActiveArray[3]} />
                     </MenuItem>
                 </div>

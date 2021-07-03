@@ -26,6 +26,7 @@ border: none;
 height : 80px;
 width: 100%;
 color: gray;
+font-size: 30px;
 
 }
 
