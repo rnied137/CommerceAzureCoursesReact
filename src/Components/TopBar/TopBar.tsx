@@ -12,11 +12,14 @@ type Props = {
 const Bar = styled.div`
 height: 100px;
 width: calc(100vw - 100px);
-border: 1px solid lightblue;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
+
+&>* {
+    padding:1.5rem;
+}
 `;
 
 export const TopBar = ({ children }: Props) => {
