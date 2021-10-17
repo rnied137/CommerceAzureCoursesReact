@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { Switch, Route } from "react-router-dom";
-import { ComponentPlaceholder } from '../ComponentPlaceholder';
-import { Settings } from './Pages/Settings';
+import { Settings } from '../AdminArea/Settings';
 import { Dashboard } from './Pages/Dashboard';
 import { Communication } from './Pages/Communication';
 import { Widgets } from './Pages/Widgets';
