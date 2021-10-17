@@ -1,5 +1,3 @@
-import React from 'react'
-import { MarkdownGenerator } from '../../FunctionalComponents/MarkdownGenerator'
 
 export const Widgets = () => {
     return (

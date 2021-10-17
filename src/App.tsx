@@ -21,7 +21,7 @@ function App() {
   }
 
 useEffect(() => {
-  console.warn(theme)
+  //console.warn(theme)
 }, [])
   return (
     <ChakraProvider theme={theme}>

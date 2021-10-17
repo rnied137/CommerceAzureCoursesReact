@@ -1,6 +1,5 @@
 import React from 'react'
-import { useEffect } from 'react';
-import { Button, ButtonGroup } from "@chakra-ui/react"
+import { Button } from "@chakra-ui/react"
 import { Heading } from "@chakra-ui/react"
 
 
@@ -21,7 +20,7 @@ if (isAdmin){
            
             
         </Heading>
-         <Button bg="primary">Button</Button>
+         <Button variant="primary">Button</Button>
          </div>
     )
 }
