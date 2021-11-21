@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createGlobalStyle } from 'styled-components'
 
-
 const GlobalStyle = createGlobalStyle`
 *{
   box-sizing: border-box;

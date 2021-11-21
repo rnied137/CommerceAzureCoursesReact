@@ -1,0 +1,47 @@
+
+p {
+    color: red;
+}
+
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+form > div {
+     width: 100%;
+     display: block;
+     margin-bottom: 1rem;
+}
+
+.form-row {
+    display: block;
+}
+
+input {
+   outline: 1px solid #DDDFE1;
+   padding: 1rem;
+   width: 100%;
+   height: 35px;
+}
+
+
+.form-container {
+    width: 500px;
+    padding: 2rem;
+    border: 4px solid red;
+}
+
+
+.title-text {
+    text-align: center;
+}
+
+
+.login-form {
+    /* height: 100vh; */
+}

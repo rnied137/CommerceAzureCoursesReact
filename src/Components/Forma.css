@@ -1,0 +1,16 @@
+.index-site {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-family: Circular Std;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .index-site{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+

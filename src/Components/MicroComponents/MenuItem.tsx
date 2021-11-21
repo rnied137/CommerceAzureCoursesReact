@@ -33,12 +33,7 @@ border: ${props => props.border ? "1px solid #494E67" : ""};
 background: #FFFFFF;
 box-shadow:  0px 4px 10px rgba(0, 0, 0, 0.05);
 border-radius:  5px;
-}
-
-`;
-
-
-
+}`;
 
 
 export const MenuItem = ({ index = 3, icon = "", href = "http://www.interia.pl", active = false, setActive, children,

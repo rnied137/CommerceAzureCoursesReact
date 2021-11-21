@@ -16,7 +16,7 @@ export const RouterComponent = () => {
     return (
         <RouterBody>
             <Switch>
-                <Route exact path="/widgets" component={Widgets} />
+                <Route exact path="/" component={Widgets} />
                 <Route exact path="/communication" component={Communication} />
                 <Route exact path="/dashboard" component={Dashboard} />
                 <Route exact path='/settings' component={Settings} />

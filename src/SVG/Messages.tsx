@@ -8,6 +8,7 @@ type ActiveItemProps = {
 const SVG = styled.svg<ActiveItemProps>`
 fill: ${props => props.active ? "#713BDB" : "#969CBA"};
 stroke: ${props => props.active ? "#713BDB" : "#969CBA"};
+
 &>path {
     fill: ${props => props.active ? "#713BDB" : "#969CBA"};
 stroke: ${props => props.active ? "#713BDB" : "#969CBA"};

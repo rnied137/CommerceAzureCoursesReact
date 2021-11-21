@@ -34,7 +34,7 @@ export const Sidebar = ({ isActiveArray, setActive }: Props) => {
             <Link to="/"><Logo /></Link>
             <MenuDivider>
                 <div>
-                    <MenuItem href="/widgets" active={isActiveArray[0]} index={0} setActive={() => setActive(0, isActiveArray[0])}>
+                    <MenuItem href="/" active={isActiveArray[0]} index={0} setActive={() => setActive(0, isActiveArray[0])}>
                         <Folder active={isActiveArray[0]} />
                     </MenuItem>
                     <MenuItem href="/dashboard" active={isActiveArray[1]} index={1} setActive={() => setActive(1, isActiveArray[1])}>

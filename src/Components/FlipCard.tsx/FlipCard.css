@@ -1,0 +1,50 @@
+.perspective {
+    height: 100vh;
+    flex: 1;
+    perspective: 1000px;
+  
+}
+
+.flip-card-inner {
+    position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  text-align: center;
+}
+
+.flip-card-back{
+    transform: rotateY( 180deg );
+    background: purple;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    height: 100%;
+
+
+}
+
+
+.flip-card-front{
+    background: red;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+
+}
+
+
+.full-height {
+    height: 100vh;
+}
+
+.zero-height {
+    /* height: 0; */
+    display: none;
+}
+
+.flipped {
+    transform: rotateY(180deg);
+}
+
+.hidden {
+    /* display: none; */
+}
