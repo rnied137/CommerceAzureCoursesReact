@@ -1,0 +1,88 @@
+
+.register-form {
+    margin: auto;
+    text-align: center;
+    left      : 50%;
+    top       : 50%;
+    position  : absolute;
+    transform : translate(-50%, -50%);
+    border: 5px solid #7F63F4;
+    box-shadow: 0 8px 8px -4px #9586d3;
+    min-width: 320px;
+
+    /* font-family: Georgia, 'Times New Roman', Times, serif */
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.content {
+    padding: 3rem;
+    border: 1px solid black;
+}
+
+.content > svg {
+    display: block;
+}
+
+.input-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ 
+.form-group > input {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    height: 35px;
+    padding: 5px;
+}
+
+.form-group > span {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-top:10px;
+    min-width: 250px;
+}
+
+input {
+    border: 1px solid #DDDFE1;
+
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #7F63F4;
+    padding: 1.5rem 3.5rem;
+    text-align: center;
+    display: block;
+    border-radius: 5%;
+    line-height:2px;
+    font-weight: 700;
+    /* border-color: #fff; */
+    box-shadow: 0 8px 8px -4px #a193da; 
+    border-radius: 5px;
+     /* stroke: #DDDFE1; */
+} 
+
+.forgot-password {
+    margin: 10px 0;
+}
+
+
+.sign-up-text {
+    margin-top: 10px;
+}
+
+.sign-up-text > a {
+    color: #7F63F4;
+    text-decoration: underline;
+}

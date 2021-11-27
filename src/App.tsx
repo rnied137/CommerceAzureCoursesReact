@@ -7,6 +7,9 @@
 // import { theme } from "./themes/ExtendChakra";
 // import { useEffect} from 'react';
 import { Forma } from './Components/Forma';
+import Login from './Components/Forma/Login/Login';
+import Register from './Components/Forma/Register/Register';
+import { RegisterForm } from './Components/Forma/RegisterForm/RegisterForm';
 
 function App() {
 
@@ -26,7 +29,9 @@ function App() {
 // }, [])
   return (
     <>
-    <Forma/>
+    {/* <Register/> */}
+    <RegisterForm/>
+    {/* <Forma/> */}
     {/* <ChakraProvider theme={theme}>
     <div style={{ display: "flex" }}>
       <Router>
