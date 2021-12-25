@@ -1,1 +1,1 @@
-![Gleeek](../img/pic.PNG?raw=true "Title")
+![Gleeek](img/pic.PNG?raw=true "Title")
