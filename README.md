@@ -1,1 +1,1 @@
-![Gleeek](relative/path/to/img.jpg?raw=true "Title")
+![Gleeek](../img/pic.PNG?raw=true "Title")
